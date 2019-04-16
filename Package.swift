@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.0
 /*
  * Package.swift
  * Copyright (c) 2015 Ben Gollmer.
@@ -19,5 +19,6 @@
 import PackageDescription
 
 let package = Package(
-  name: "CommandLine"
+  name: "CommandLine",
+  exclude: ["script"]
 )
